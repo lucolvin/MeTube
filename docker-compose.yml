@@ -6,5 +6,5 @@ services:
     ports:
       - "8733:80"
     volumes:
-      - /mnt/user/lab/yt_downloads/YouTube:/media
+      - /mnt/user/Lab/yt_downloads/YouTube:/media
     restart: unless-stopped
