@@ -6,5 +6,5 @@ services:
     ports:
       - "8733:80"
     volumes:
-      - /lab/yt_downloads/YouTube:/media
+      - /lab/yt_downloads/YouTube/BeardMeatsFood:/media
     restart: unless-stopped
