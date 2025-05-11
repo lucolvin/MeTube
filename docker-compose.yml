@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  mediahub:
+    build: .
+    ports:
+      - "8733:80"
+    volumes:
+      - /lab/yt_downloads/YouTube:/media
+    restart: unless-stopped
